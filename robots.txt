@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://paghelpme.github.io/sitemap.xml
+
+# Block access to private pages
+Disallow: /privacy/
+
+# Allow important pages
+Allow: /src/img/
+Allow: /index.html
+
+# Crawl-delay
+Crawl-delay: 1

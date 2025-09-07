@@ -4,14 +4,80 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Paghelp.me! Gerencie todas as suas chaves Pix em um único aplicativo, e crie cobranças mesmo offline.">
-    <meta name="keywords" content="pix, app, brasil, pagamento, pagementos, instântaneo, instantaneo, qr, code, api, brazil">
+    <meta name="description" content="Paghelp.me é o app brasileiro para gerenciar chaves PIX offline. Crie cobranças, QR codes e organize suas chaves PIX em um só lugar. Download gratuito.">
+    <meta name="keywords" content="pix, app, brasil, pagamento, pagamentos, instantaneo, qr, code, api, brazil, chaves pix, cobrança pix, app pix offline">
     <meta name="author" content="Alexandre Sanlim">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://paghelpme.github.io/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paghelpme.github.io/">
+    <meta property="og:title" content="Paghelp.me - App PIX Brasil | Gerencie Chaves PIX Offline">
+    <meta property="og:description" content="App brasileiro para gerenciar chaves PIX offline. Crie cobranças, QR codes e organize suas chaves PIX em um só lugar.">
+    <meta property="og:image" content="https://paghelpme.github.io/src/img/logo.png">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Paghelp.me">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://paghelpme.github.io/">
+    <meta property="twitter:title" content="Paghelp.me - App PIX Brasil | Gerencie Chaves PIX Offline">
+    <meta property="twitter:description" content="App brasileiro para gerenciar chaves PIX offline. Crie cobranças, QR codes e organize suas chaves PIX em um só lugar.">
+    <meta property="twitter:image" content="https://paghelpme.github.io/src/img/logo.png">
+    
+    <!-- Geo and Language -->
+    <meta name="geo.region" content="BR">
+    <meta name="geo.country" content="Brazil">
+    <meta name="language" content="Portuguese">
+    <meta name="theme-color" content="#16a085">
 
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="src/img/logo.png" as="image">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <title>Paghelp.me! - Gerencie todas suas chaves Pix em um único App, crie cobranças mesmo offline, faça backup sem necessidade de login e armazenamento e muito mais!</title>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Paghelp.me",
+      "alternateName": "Paghelp.me PIX Manager",
+      "description": "App brasileiro para gerenciar chaves PIX offline. Crie cobranças, QR codes e organize suas chaves PIX em um só lugar sem necessidade de internet.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      },
+      "downloadUrl": "https://play.google.com/store/apps/details?id=io.github.paghelpme",
+      "author": {
+        "@type": "Person",
+        "name": "Alexandre Sanlim"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.5",
+        "ratingCount": "100"
+      },
+      "featureList": [
+        "Gerenciamento de chaves PIX offline",
+        "Criação de cobranças PIX",
+        "Geração de QR codes",
+        "Backup sem login",
+        "Interface em português"
+      ],
+      "screenshot": "https://paghelpme.github.io/src/img/screenshots/0-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png",
+      "inLanguage": "pt-BR",
+      "contentRating": "Everyone"
+    }
+    </script>
+
+    <title>Paghelp.me - App PIX Brasil | Gerencie Chaves PIX Offline</title>
 
     <!--add animation: gradient 60s ease infinite; to animation gradient, custom gradient here: https://cssgradient.io/-->
     <!-- <style>
@@ -55,7 +121,7 @@ background: linear-gradient(150deg, rgba(0,139,125,1) 0%, rgba(52,188,172,1) 38%
             <div class="row">
 
               <!-- SET YOUR LOGO HERE -->
-                <figure class="figure col-lg-3"><img src="src/img/logo.png" class="figure-img img-fluid rounded"></figure>
+                <figure class="figure col-lg-3"><img src="src/img/logo.png" alt="Paghelp.me - Logo do aplicativo PIX para gerenciar chaves" class="figure-img img-fluid rounded"></figure>
 
                 <div class="col-lg-9">
 
@@ -64,7 +130,7 @@ background: linear-gradient(150deg, rgba(0,139,125,1) 0%, rgba(52,188,172,1) 38%
                       com a possibilidade de gerar cobranças, compartilhar rapidamente, entre outras funcionalidades totalmente offline e sem armazenar suas chaves na internet.
                     </p>
                     <!-- <p><img src="src/img/badges/ios.svg" width="35%"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" width="43%"></p> -->
-                    <p><a href="https://play.google.com/store/apps/details?id=io.github.paghelpme"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" width="43%"></a></p>
+                    <p><a href="https://play.google.com/store/apps/details?id=io.github.paghelpme" title="Download Paghelp.me na Google Play Store"><img src="https://cdn.rawgit.com/steverichey/google-play-badge-svg/master/img/en_get.svg" alt="Baixar Paghelp.me na Google Play Store - App PIX gratuito" width="43%"></a></p>
 
                 </div>
             </div>
@@ -84,7 +150,7 @@ background: linear-gradient(150deg, rgba(0,139,125,1) 0%, rgba(52,188,172,1) 38%
                 <div class="container">
                   <div class="carousel-caption">
                     <h2>Gerenciador de Chaves</h2>
-                    <p>Grencie todas suas chaves em um único app, melhorando a sua organização ou da sua empresa.</p>
+                    <p>Gerencie todas suas chaves em um único app, melhorando a sua organização ou da sua empresa.</p>
                   </div>
                 </div>
               </div>
@@ -94,7 +160,7 @@ background: linear-gradient(150deg, rgba(0,139,125,1) 0%, rgba(52,188,172,1) 38%
                 <div class="container">
                   <div class="carousel-caption">
                     <h2>Cobranças</h2>
-                    <p>Crie QR Codes para cobranças ou código copia e cola. Com o pix você recebe de forma instântanea direto na sua conta.</p>
+                    <p>Crie QR Codes para cobranças ou código copia e cola. Com o pix você recebe de forma instantânea direto na sua conta.</p>
                   </div>
                 </div>
               </div>
@@ -120,20 +186,20 @@ background: linear-gradient(150deg, rgba(0,139,125,1) 0%, rgba(52,188,172,1) 38%
           </div>
       
         <div class="my-3 p-3 rounded">
-          <!-- <h1 class="pb-2 mb-0 text-white">Screenshots</h1> -->
+          <h2 class="pb-2 mb-3 text-white">Capturas de Tela do Aplicativo</h2>
 
           <!-- SET YOUR SCREENSHOTS HERE -->
           <div class="row align-items-center">
-              <figure class="figure col-lg-3"><img src="src/img/screenshots/0-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="src/img/screenshots/1-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="src/img/screenshots/2-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" class="figure-img img-fluid rounded"></figure>
-              <figure class="figure col-lg-3"><img src="src/img/screenshots/3-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="src/img/screenshots/0-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" alt="Tela inicial do app Paghelp.me - Interface principal para gerenciar chaves PIX" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="src/img/screenshots/1-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" alt="Tela de gerenciamento de chaves PIX no Paghelp.me" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="src/img/screenshots/2-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" alt="Criação de cobrança PIX com QR code no app Paghelp.me" class="figure-img img-fluid rounded"></figure>
+              <figure class="figure col-lg-3"><img src="src/img/screenshots/3-pagamento-brasil-brazil-qr-code-pix-off-instantaneo-paypay-nubank-picpay-itau-banco-do-brasil-caixa-auxilio-ferramenta.png" alt="Interface de compartilhamento e notícias PIX no Paghelp.me" class="figure-img img-fluid rounded"></figure>
           </div>
 
         </div>
 
         <div class="my-3">
-          <h1 class="pb-2 mb-0 text-white">Dúvidas Frequentes</h1>
+          <h2 class="pb-2 mb-0 text-white">Dúvidas Frequentes sobre PIX</h2>
           <div class="accordion text-white" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
