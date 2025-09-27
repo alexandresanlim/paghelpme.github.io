@@ -1,0 +1,16 @@
+# robots.txt for Paghelp.me - PIX Payment App Landing Page
+# Website: https://1.paghelp.me
+
+User-agent: *
+Allow: /
+
+# Allow important pages for SEO
+Allow: /index.html
+Allow: /privacy/
+Allow: /google2f3c5e7032b61a80.html
+
+# Allow crawling of assets
+Allow: /src/
+
+# Standard crawl delay to be respectful
+Crawl-delay: 1
