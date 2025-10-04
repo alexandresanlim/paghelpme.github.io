@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" 
-     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:content="http://purl.org/rss/1.0/modu  <!-- Post 3: PIX Agendado -->
+  <item>
+    <title>PIX Agendado: Como funciona e como usar - Guia Completo  <!-- Post 7: 5 melhores apps -->
+  <item>
+    <title>Os 5 melhores apps para gerenciar suas chaves PIX em 2025</title>
+    <link>https://paghelpme.github.io/blog/posts/5-melhores-apps-gerenciar-chaves-pix.html</link>
+    <description>Descubra os 5 melhores aplicativos para gerenciar suas chaves PIX em 2025. Análise completa com prós e contras, preços e funcionalidades. O Paghelp.me lidera o ranking por sua privacidade total e funcionamento offline.</description>
+    <content:encoded><![CDATA[
+      <p>Descubra os 5 melhores aplicativos para gerenciar suas chaves PIX em 2025. Análise completa com prós e contras, preços e funcionalidades.</p>title>
+    <link>https://paghelpme.github.io/blog/posts/pix-agendado-como-funciona-guia-completo.html</link>
+    <description>Aprenda tudo sobre PIX Agendado: como funciona, como agendar transferências PIX, vantagens do agendamento e como usar no Paghelp.me. Guia completo 2025.</description>ontent/"
      xmlns:wfw="http://wellformedweb.org/CommentAPI/"
      xmlns:dc="http://purl.org/  <!-- Post 6: Recursos essenciais -->
   <item>
@@ -35,14 +45,14 @@
   <atom:link href="https://paghelpme.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
   <link>https://paghelpme.github.io/blog/</link>
   <description>Dicas, tutoriais e novidades sobre PIX, pagamentos digitais e o aplicativo Paghelp.me.</description>
-  <lastBuildDate>Sat, 28 Sep 2024 10:00:00 -0300</lastBuildDate>
+  <lastBuildDate>Fri, 04 Oct 2025 10:00:00 -0300</lastBuildDate>
   <language>pt-BR</language>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Paghelp.me Blog</generator>
   <managingEditor>contato@paghelpme.github.io (Alexandre Sanlim)</managingEditor>
   <webMaster>contato@paghelpme.github.io (Alexandre Sanlim)</webMaster>
-  <copyright>© 2024 Paghelp.me - Todos os direitos reservados</copyright>
+  <copyright>© 2025 Paghelp.me - Todos os direitos reservados</copyright>
   <image>
     <url>https://paghelpme.github.io/src/img/logo.png</url>
     <title>Blog Paghelp.me</title>
@@ -51,7 +61,33 @@
     <height>400</height>
   </image>
 
-  <!-- Post 1: Chave PIX Aleatória -->
+  <!-- Post 1: Paghelp 2.0.28 -->
+  <item>
+    <title>Paghelp.me 2.0.28: Cobrança de Itens, Exportação e Compartilhamento WhatsApp</title>
+    <link>https://paghelpme.github.io/blog/posts/paghelp-versao-2-0-28-cobranca-itens-exportar-compartilhar.html</link>
+    <description>A versão 2.0.28 chega com três recursos revolucionários: cobrança PIX com lista de itens, exportação de chaves e compartilhamento via WhatsApp.</description>
+    <content:encoded><![CDATA[
+      <p>A versão 2.0.28 do Paghelp.me traz três recursos revolucionários que tornam o gerenciamento de cobranças PIX ainda mais profissional.</p>
+      <p><strong>Principais novidades:</strong></p>
+      <ul>
+        <li><strong>Cobrança com Lista de Itens:</strong> Crie cobranças PIX profissionais com produtos/serviços detalhados, quantidade e valor unitário. Cálculo automático do total.</li>
+        <li><strong>Exportação de Chaves:</strong> Exporte suas chaves PIX e contatos em formato universal. Backup seguro, migração entre dispositivos e compartilhamento corporativo.</li>
+        <li><strong>Compartilhamento WhatsApp:</strong> Envie cobranças PIX diretamente pelo WhatsApp com um toque. Mensagem formatada + QR Code + chave Copia e Cola.</li>
+      </ul>
+      <p><strong>Casos de uso:</strong> Pequenos comércios, restaurantes, prestadores de serviços, divisão de contas, vendas online e muito mais.</p>
+      <p><strong>Vantagens:</strong> Transparência total, menos retrabalho, backup inteligente, tudo offline, imagem profissional.</p>
+      <p>Atualização gratuita disponível para Android, iOS e versão Web!</p>
+    ]]></content:encoded>
+    <pubDate>Fri, 04 Oct 2025 10:00:00 -0300</pubDate>
+    <guid isPermaLink="false">paghelpme-blog-versao-2-0-28-cobranca-itens-2025</guid>
+    <dc:creator>Alexandre Sanlim</dc:creator>
+    <category>Atualização</category>
+    <category>Recursos</category>
+    <category>PIX</category>
+    <category>Paghelp.me</category>
+  </item>
+
+  <!-- Post 2: Chave PIX Aleatória -->
   <item>
     <title>Chave PIX Aleatória: 7 Benefícios para sua Segurança e Privacidade</title>
     <link>https://paghelpme.github.io/blog/posts/beneficios-chave-pix-aleatoria-seguranca-privacidade.html</link>

@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Paghelp.me 2.0.28: Cobrança de itens detalhada, exportação de chaves PIX (próprias e de contatos) e compartilhamento rápido via WhatsApp. Descubra as novidades!">
+  <meta name="keywords"
+    content="paghelp.me 2.0.28, cobrança pix itens, exportar chaves pix, compartilhar pix whatsapp, app pix, atualização paghelp, novidades pix, cobrança detalhada pix, exportar contatos pix, qr code whatsapp, lista de compras pix, nota fiscal pix, app pix brasil, gerenciador pix, chaves pix offline">
+  <meta name="author" content="Alexandre Sanlim">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="pt-BR">
+  <meta name="revisit-after" content="7 days">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://paghelpme.github.io/blog/posts/paghelp-versao-2-0-28-cobranca-itens-exportar-compartilhar.html">
+  <meta property="og:title" content="Paghelp.me 2.0.28: Cobrança de Itens, Exportação e Compartilhamento WhatsApp">
+  <meta property="og:description"
+    content="Novidades incríveis: crie cobranças PIX com itens detalhados, exporte suas chaves e contatos, e compartilhe facilmente via WhatsApp!">
+  <meta property="og:image" content="https://paghelpme.github.io/src/img/metatag.png">
+  <meta property="og:site_name" content="Blog Paghelp.me">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://paghelpme.github.io/blog/posts/paghelp-versao-2-0-28-cobranca-itens-exportar-compartilhar.html">
+  <meta property="twitter:title" content="Paghelp.me 2.0.28: Cobrança de Itens, Exportação e Compartilhamento WhatsApp">
+  <meta property="twitter:description"
+    content="Novidades incríveis: crie cobranças PIX com itens detalhados, exporte suas chaves e contatos, e compartilhe facilmente via WhatsApp!">
+  <meta property="twitter:image" content="https://paghelpme.github.io/src/img/metatag.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://paghelpme.github.io/blog/posts/paghelp-versao-2-0-28-cobranca-itens-exportar-compartilhar.html">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="../../sitemap.xml">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../../src/img/logo.png">
+  <link rel="apple-touch-icon" href="../../src/img/logo.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>Paghelp.me 2.0.28: Cobrança de Itens, Exportação e Compartilhamento WhatsApp | Blog Paghelp.me</title>
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Paghelp.me 2.0.28: Cobrança de Itens, Exportação de Chaves e Compartilhamento WhatsApp",
+    "description": "Conheça as novidades da versão 2.0.28 do Paghelp.me: cobrança PIX com itens detalhados, exportação de chaves próprias e de contatos, e compartilhamento rápido via WhatsApp.",
+    "image": "https://paghelpme.github.io/src/img/metatag.png",
+    "datePublished": "2025-10-04T10:00:00-03:00",
+    "dateModified": "2025-10-04T10:00:00-03:00",
+    "author": {
+      "@type": "Person",
+      "name": "Alexandre Sanlim"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Paghelp.me",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://paghelpme.github.io/src/img/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://paghelpme.github.io/blog/posts/paghelp-versao-2-0-28-cobranca-itens-exportar-compartilhar.html"
+    },
+    "keywords": "paghelp.me, atualização, pix, cobrança itens, exportar chaves, whatsapp",
+    "articleSection": "Atualizações",
+    "inLanguage": "pt-BR"
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary-color: #667eea;
+      --secondary-color: #764ba2;
+      --accent-color: #004c40;
+      --success-color: #4caf50;
+      --text-primary: #2c3e50;
+      --text-secondary: #34495e;
+      --text-muted: #7f8c8d;
+      --bg-primary: #ffffff;
+      --glass-bg: rgba(102, 126, 234, 0.08);
+      --glass-border: rgba(102, 126, 234, 0.2);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg-primary);
+      line-height: 1.8;
+      color: var(--text-primary);
+      padding-top: 80px;
+    }
+
+    .navbar {
+      background: rgba(255, 255, 255, 0.98) !important;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .navbar-brand:hover {
+      transform: translateY(-2px);
+    }
+
+    .nav-link {
+      color: var(--text-secondary) !important;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .nav-link:hover {
+      color: var(--accent-color) !important;
+      transform: translateY(-2px);
+    }
+
+    .nav-link.active {
+      color: var(--accent-color) !important;
+    }
+
+    .article-header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 4rem 0;
+      margin-bottom: 3rem;
+      border-radius: 0 0 50px 50px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.05)"/></svg>');
+      opacity: 0.3;
+    }
+
+    .article-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-meta {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      color: rgba(255, 255, 255, 0.9);
+      position: relative;
+      z-index: 1;
+    }
+
+    .article-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .version-badge {
+      display: inline-block;
+      background: var(--success-color);
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    }
+
+    .article-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    .article-content h2 {
+      color: var(--accent-color);
+      font-weight: 700;
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+
+    .article-content h3 {
+      color: var(--primary-color);
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .article-content p {
+      margin-bottom: 1.5rem;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      margin-bottom: 1.5rem;
+      padding-left: 2rem;
+    }
+
+    .article-content li {
+      margin-bottom: 0.8rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .feature-card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 20px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature-icon {
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    }
+
+    .feature-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--accent-color);
+      margin-bottom: 1rem;
+    }
+
+    .feature-description {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    .benefit-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefit-list li {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: rgba(76, 175, 80, 0.05);
+      border-left: 4px solid var(--success-color);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .benefit-list li:hover {
+      background: rgba(76, 175, 80, 0.1);
+      transform: translateX(5px);
+    }
+
+    .benefit-list li i {
+      color: var(--success-color);
+      margin-right: 0.8rem;
+      font-size: 1.2rem;
+    }
+
+    .highlight-box {
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+      border-left: 5px solid var(--primary-color);
+      padding: 2rem;
+      border-radius: 15px;
+      margin: 2rem 0;
+    }
+
+    .highlight-box h3 {
+      margin-top: 0;
+      color: var(--primary-color);
+    }
+
+    .cta-section {
+      background: linear-gradient(135deg, var(--accent-color), #00695c);
+      color: white;
+      padding: 3rem;
+      border-radius: 25px;
+      text-align: center;
+      margin: 3rem 0;
+      box-shadow: 0 15px 40px rgba(0, 76, 64, 0.2);
+    }
+
+    .cta-section h3 {
+      color: white;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+    }
+
+    .download-btn {
+      display: inline-block;
+      background: white;
+      color: var(--accent-color);
+      padding: 1rem 2.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .download-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+      color: var(--accent-color);
+    }
+
+    .breadcrumb {
+      background: transparent;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .breadcrumb-item a {
+      color: var(--primary-color);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .breadcrumb-item a:hover {
+      color: var(--accent-color);
+    }
+
+    .use-case-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .use-case-card {
+      background: white;
+      border: 2px solid var(--glass-border);
+      border-radius: 15px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .use-case-card:hover {
+      border-color: var(--primary-color);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .use-case-card i {
+      font-size: 3rem;
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+    }
+
+    .use-case-card h4 {
+      color: var(--accent-color);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 2rem 0;
+      margin-top: 4rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+      .article-header h1 {
+        font-size: 1.8rem;
+      }
+
+      .article-meta {
+        font-size: 0.9rem;
+      }
+
+      .feature-card {
+        padding: 1.5rem;
+      }
+
+      .use-case-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="../../">
+        <img src="../../src/img/logo.png" alt="Paghelp.me" width="40" height="40" class="me-2 rounded">
+        <strong style="color: var(--accent-color);">Paghelp.me</strong>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../../">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../pix.html">Sobre PIX</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://play.google.com/store/apps/details?id=io.github.paghelpme"
+              target="_blank">
+              <i class="fab fa-google-play me-1"></i>Download
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://paghelpme.expo.app/" target="_blank">
+              <i class="fas fa-globe me-1"></i>Versão Web
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Article Header -->
+  <div class="article-header">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../../" style="color: rgba(255,255,255,0.9);">Início</a></li>
+          <li class="breadcrumb-item"><a href="../" style="color: rgba(255,255,255,0.9);">Blog</a></li>
+          <li class="breadcrumb-item active" aria-current="page" style="color: white;">Paghelp.me 2.0.28</li>
+        </ol>
+      </nav>
+
+      <div class="version-badge">
+        <i class="fas fa-rocket me-2"></i>Versão 2.0.28
+      </div>
+
+      <h1>Paghelp.me 2.0.28: Cobrança de Itens, Exportação e Compartilhamento WhatsApp</h1>
+
+      <div class="article-meta">
+        <span>
+          <i class="fas fa-calendar"></i>
+          4 de Outubro, 2025
+        </span>
+        <span>
+          <i class="fas fa-user"></i>
+          Alexandre Sanlim
+        </span>
+        <span>
+          <i class="fas fa-tags"></i>
+          Atualização, Recursos, PIX
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Article Content -->
+  <div class="article-content">
+
+    <p class="lead" style="font-size: 1.3rem; color: var(--text-secondary); margin-bottom: 2rem;">
+      A versão 2.0.28 do Paghelp.me chega com três recursos revolucionários que tornam o gerenciamento de cobranças PIX ainda mais profissional: <strong>cobrança detalhada com itens</strong>, <strong>exportação de chaves</strong> e <strong>compartilhamento fácil via WhatsApp</strong>. Prepare-se para elevar sua gestão PIX a outro nível!
+    </p>
+
+    <h2><i class="fas fa-star me-3" style="color: var(--success-color);"></i>Novidades da Versão 2.0.28</h2>
+
+    <!-- Feature 1: Cobrança de Itens -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fas fa-list-ul"></i>
+      </div>
+      <div class="feature-title">
+        <i class="fas fa-receipt me-2"></i>1. Cobrança PIX com Lista de Itens
+      </div>
+      <div class="feature-description">
+        <p>
+          Agora você pode criar <strong>cobranças PIX profissionais</strong> com lista detalhada de produtos ou serviços! Especifique cada item, quantidade e valor unitário, e o Paghelp.me calcula automaticamente o total da cobrança.
+        </p>
+        
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Como funciona:</h3>
+        <ul class="benefit-list">
+          <li><i class="fas fa-check-circle"></i><strong>Adicione itens individuais:</strong> Produto, serviço ou descrição personalizada</li>
+          <li><i class="fas fa-check-circle"></i><strong>Defina quantidade e valor:</strong> O app calcula o subtotal automaticamente</li>
+          <li><i class="fas fa-check-circle"></i><strong>Visualize o total:</strong> Soma completa de todos os itens na cobrança</li>
+          <li><i class="fas fa-check-circle"></i><strong>Gere QR Code completo:</strong> Com todos os detalhes da transação</li>
+        </ul>
+
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Casos de uso práticos:</h3>
+        <div class="use-case-grid">
+          <div class="use-case-card">
+            <i class="fas fa-shopping-cart"></i>
+            <h4>Pequenos Comércios</h4>
+            <p>Liste produtos vendidos com preços individuais</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-utensils"></i>
+            <h4>Restaurantes</h4>
+            <p>Itemize pedidos e comandas completas</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-wrench"></i>
+            <h4>Serviços</h4>
+            <p>Detalhe cada serviço prestado e seu valor</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-users"></i>
+            <h4>Divisão de Contas</h4>
+            <p>Mostre claramente o que cada pessoa consumiu</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature 2: Exportar Chaves -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fas fa-download"></i>
+      </div>
+      <div class="feature-title">
+        <i class="fas fa-key me-2"></i>2. Exportação de Chaves PIX
+      </div>
+      <div class="feature-description">
+        <p>
+          Tenha <strong>controle total sobre seus dados</strong>! A nova funcionalidade de exportação permite salvar todas as suas chaves PIX cadastradas e também seus contatos em formato universal.
+        </p>
+        
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">O que você pode exportar:</h3>
+        <ul class="benefit-list">
+          <li><i class="fas fa-check-circle"></i><strong>Suas chaves PIX:</strong> Todas as chaves cadastradas no seu perfil</li>
+          <li><i class="fas fa-check-circle"></i><strong>Chaves de contatos:</strong> Lista completa da sua agenda PIX</li>
+          <li><i class="fas fa-check-circle"></i><strong>Formato compatível:</strong> Arquivo fácil de importar e compartilhar</li>
+          <li><i class="fas fa-check-circle"></i><strong>Backup seguro:</strong> Mantenha cópia de segurança offline</li>
+        </ul>
+
+        <div class="highlight-box">
+          <h3><i class="fas fa-shield-alt me-2"></i>Segurança e Privacidade</h3>
+          <p>
+            A exportação mantém o <strong>princípio offline-first</strong> do Paghelp.me. Os dados são salvos localmente no seu dispositivo, sem passar por servidores externos. Você decide onde armazenar e com quem compartilhar suas informações!
+          </p>
+        </div>
+
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Vantagens da exportação:</h3>
+        <ul>
+          <li>📱 <strong>Migração fácil entre dispositivos</strong> - Troque de celular sem perder dados</li>
+          <li>💾 <strong>Backup preventivo</strong> - Proteja-se contra perda de dados</li>
+          <li>🔄 <strong>Sincronização manual</strong> - Mantenha múltiplos dispositivos atualizados</li>
+          <li>📊 <strong>Organização externa</strong> - Use em planilhas ou sistemas próprios</li>
+          <li>👥 <strong>Compartilhamento corporativo</strong> - Distribua listas de chaves para equipes</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Feature 3: Compartilhamento WhatsApp -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <div class="feature-title">
+        <i class="fas fa-share-alt me-2"></i>3. Compartilhamento Rápido via WhatsApp
+      </div>
+      <div class="feature-description">
+        <p>
+          Envie suas cobranças PIX <strong>diretamente pelo WhatsApp</strong> em poucos toques! Integração nativa que torna o processo de cobrança mais ágil e profissional.
+        </p>
+        
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Como funciona:</h3>
+        <ul class="benefit-list">
+          <li><i class="fas fa-check-circle"></i><strong>Botão direto no app:</strong> Compartilhe com um toque após gerar a cobrança</li>
+          <li><i class="fas fa-check-circle"></i><strong>Mensagem formatada:</strong> Texto profissional com valor e detalhes</li>
+          <li><i class="fas fa-check-circle"></i><strong>QR Code incluído:</strong> Imagem pronta para escaneamento</li>
+          <li><i class="fas fa-check-circle"></i><strong>Chave PIX Copia e Cola:</strong> Código também enviado em texto</li>
+        </ul>
+
+        <h3 style="font-size: 1.2rem; margin-top: 1.5rem;">Benefícios para seu negócio:</h3>
+        <div class="use-case-grid">
+          <div class="use-case-card">
+            <i class="fas fa-clock"></i>
+            <h4>Agilidade</h4>
+            <p>Envie cobranças em segundos</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h4>Praticidade</h4>
+            <p>Cliente recebe e paga no mesmo app</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-briefcase"></i>
+            <h4>Profissionalismo</h4>
+            <p>Mensagem padronizada e clara</p>
+          </div>
+          <div class="use-case-card">
+            <i class="fas fa-chart-line"></i>
+            <h4>Conversão</h4>
+            <p>Facilite o pagamento = mais vendas</p>
+          </div>
+        </div>
+
+        <div class="highlight-box">
+          <h3><i class="fas fa-lightbulb me-2"></i>Dica Profissional</h3>
+          <p>
+            Combine a <strong>cobrança com itens</strong> + <strong>compartilhamento WhatsApp</strong> para criar uma experiência completa! Seus clientes recebem uma cobrança detalhada, transparente e podem pagar instantaneamente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h2><i class="fas fa-trophy me-3" style="color: var(--success-color);"></i>Por Que Você Vai Amar Essas Novidades</h2>
+
+    <p>A versão 2.0.28 foi desenvolvida pensando em <strong>profissionais e pequenos negócios</strong> que precisam de ferramentas robustas sem complicação. Veja o que muda na sua rotina:</p>
+
+    <ul class="benefit-list">
+      <li>
+        <i class="fas fa-check-double"></i>
+        <strong>Transparência total:</strong> Clientes veem exatamente o que estão pagando
+      </li>
+      <li>
+        <i class="fas fa-check-double"></i>
+        <strong>Menos retrabalho:</strong> Compartilhe direto sem copiar/colar manualmente
+      </li>
+      <li>
+        <i class="fas fa-check-double"></i>
+        <strong>Backup inteligente:</strong> Exporte e guarde seus dados com segurança
+      </li>
+      <li>
+        <i class="fas fa-check-double"></i>
+        <strong>Tudo offline:</strong> Funciona sem internet, mantendo privacidade total
+      </li>
+      <li>
+        <i class="fas fa-check-double"></i>
+        <strong>Imagem profissional:</strong> Cobranças bem formatadas impressionam clientes
+      </li>
+    </ul>
+
+    <h2><i class="fas fa-rocket me-3" style="color: var(--primary-color);"></i>Como Atualizar</h2>
+
+    <p>Obter a versão 2.0.28 é simples e rápido:</p>
+
+    <ol>
+      <li><strong>Android:</strong> Acesse a Google Play Store e atualize o Paghelp.me</li>
+      <li><strong>iOS:</strong> Atualize pela App Store</li>
+      <li><strong>Versão Web:</strong> Acesse <a href="https://paghelpme.expo.app/" target="_blank" style="color: var(--primary-color); font-weight: 600;">paghelpme.expo.app</a> - sempre atualizado!</li>
+    </ol>
+
+    <div class="highlight-box">
+      <h3><i class="fas fa-gift me-2"></i>Bônus: Todas as Versões Anteriores Incluídas!</h3>
+      <p>
+        Ao atualizar para a 2.0.28, você também recebe todos os recursos das versões anteriores:
+      </p>
+      <ul>
+        <li>🔐 <strong>Autenticação biométrica</strong> (v2.0.26)</li>
+        <li>🔗 <strong>Links de pagamento</strong> (v2.0.26)</li>
+        <li>📱 <strong>Interface otimizada</strong> (v2.0.20+)</li>
+        <li>🎨 <strong>Temas personalizados</strong> (versões anteriores)</li>
+        <li>💾 <strong>Funcionamento 100% offline</strong> (desde sempre!)</li>
+      </ul>
+    </div>
+
+    <h2><i class="fas fa-comments me-3" style="color: var(--accent-color);"></i>O Que Vem Por Aí</h2>
+
+    <p>Esta atualização faz parte do nosso compromisso de <strong>evolução contínua</strong>. Estamos trabalhando em:</p>
+
+    <ul>
+      <li>📊 Relatórios e estatísticas de cobranças</li>
+      <li>🔔 Sistema de notificações personalizáveis</li>
+      <li>🌐 Sincronização opcional em nuvem (mantendo privacidade)</li>
+      <li>🎯 Mais integrações com apps populares</li>
+    </ul>
+
+    <p>
+      <strong>Sua opinião importa!</strong> Envie sugestões e feedback através da nossa página no Google Play ou nas redes sociais.
+    </p>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+      <h3><i class="fas fa-download me-3"></i>Experimente Agora a Versão 2.0.28!</h3>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+        Baixe gratuitamente o melhor app PIX do Brasil e descubra como gerenciar suas chaves PIX pode ser simples, seguro e profissional.
+      </p>
+      <a href="https://play.google.com/store/apps/details?id=io.github.paghelpme" target="_blank" class="download-btn">
+        <i class="fab fa-google-play me-2"></i>Baixar no Google Play
+      </a>
+      <p style="margin-top: 1.5rem; font-size: 0.9rem; opacity: 0.9;">
+        <i class="fas fa-mobile-alt me-2"></i>Também disponível para iOS e versão Web
+      </p>
+    </div>
+
+    <div style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--glass-border);">
+      <p style="color: var(--text-muted); font-size: 0.95rem;">
+        <i class="fas fa-tags me-2"></i>
+        <strong>Tags:</strong> Paghelp.me, Atualização, PIX, Cobrança com Itens, Exportar Chaves, WhatsApp, App PIX, Versão 2.0.28
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>&copy; 2025 Paghelp.me - O melhor app PIX do Brasil</p>
+      <div class="mt-3">
+        <a href="../../" class="me-3">Início</a>
+        <a href="../../pix.html" class="me-3">Sobre PIX</a>
+        <a href="../" class="me-3">Blog</a>
+        <a href="../../privacy/" class="me-3">Privacidade</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGzE3C0f9p5P5jptILvQ0bX0bFNKy1bG5b5L5b5S7b5f8"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
